@@ -1,10 +1,11 @@
 
 p{
-    font-family:'Arial', sans-serif;
+    font-family: inherit;
     font-size: 17px;
     margin-bottom: 13px;
     line-height: 1.7;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -25,6 +26,21 @@ body {
   border: 2px solid #2f4f4f;
   background-color: #589fce;
   border-radius: 12px;
+}
+
+#pic1 {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+#pic2 {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+#pic3 {
+  float: left;
+  margin: 0 1rem 1rem 0;
 }
 
 img {
@@ -56,6 +72,34 @@ img {
   background-color: #ffffff;
   border: 2px solid #a6bed8;
   border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+  #container {
+    width: 90%;
+  }
+
+  .sidebar {
+    width: 28%;
+  }
+}
+
+@media (max-width: 992px) {
+  #container {
+    width: 92%;
+  }
+
+  .sidebar {
+    width: 100%;
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+
+  #pic1,#pic2,#pic3 {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -91,6 +135,30 @@ h3 {
   color: #720574;
   text-align: center;
 }
+
+body.alt-font {
+  font-family: 'comic sans ms', cursive, sans-serif;
+}
+
+body.alt-font p {
+  font-family: 'comic sans ms', cursive, sans-serif;
+}
+
+#font-toggle {
+  display: block;
+  margin: 0 0 1rem 0;
+  padding: 8px 12px;
+  border: 1px solid #2f4f4f;
+  border-radius: 6px;
+  background-color: #e0e8ff;
+  color: #2f3141;
+  cursor: pointer;
+}
+
+#font-toggle:hover {
+  background-color: #cad5ff;
+}
+
 .info {
   margin-bottom: 2rem;
   padding: 12px;
