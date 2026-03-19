@@ -39,9 +39,17 @@ Avoid including non-image files (e.g., PDFs, Word docs, ZIPs) in this folder.
 - Do not include punctuation or special characters.
 
 ---
-
+<d43b8e72-2461-4f21-ba3f-1b3fc9d1c5b9~1 (4).jpg>
+(<1000_F_498144940_DkzvRAkgBv1ILU6DiDeMZr6vUufPOra4 (1).jpg>)
 ## 🧩 Referencing Images in HTML
 
 From your HTML file, reference images with **relative paths**:
 ```html
 <img src="images/photo.jpg" alt="Sample photo">
+```
+
+### Example for this repository
+```html
+<img src="images/badminton.png" alt="Eugene playing badminton">
+<img src="<d43b8e72-2461-4f21-ba3f-1b3fc9d1c5b9~1 (3).jpg>" alt="Taipei landmark building">
+```
