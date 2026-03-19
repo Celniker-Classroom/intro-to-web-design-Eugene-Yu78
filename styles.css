@@ -14,18 +14,7 @@ body {
   line-height: 1.6;
   background-color: #b0e43f;
 }
-a:link,
-a:visited {
-  color: #f2f4f2;
-  font-weight: 600;
-  text-decoration: none;
-  border-bottom: 2px solid #a2c9e8;
-}
 
-a:hover {
-  color: #f80acc;
-  border-bottom: 2px solid #2b5a85;
-}
 #container {
   width: 90%;
   max-width: 1100px;
@@ -55,7 +44,7 @@ h1 {
 h2 {
   margin: 0 0 1.0rem;
   font-size: 1.8rem;
-  color: #9b9915;
+  color: #9b1530;
   text-align: center;
 }
 
@@ -96,4 +85,29 @@ h3 {
   margin: 0;
   padding: 8px;
   border: 1px solid #bfd9f5;
+}
+
+.link-box {
+  background-color: #f9f942;
+  border: 1px solid #88bb6e;
+}
+
+.link-box p {
+  margin: 0;
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+}
+
+.link-box a:link,
+.link-box a:visited {
+  color: #6b726b;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #a2c9e8;
+}
+
+.link-box a:hover {
+  color: #f80acc;
+  border-bottom: 2px solid #2b5a85;
 }
