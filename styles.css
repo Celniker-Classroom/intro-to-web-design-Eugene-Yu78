@@ -1,6 +1,4 @@
-background{
-    background-color: rgb(253, 162, 42);
-}
+
 p{
     font-family:'Arial', sans-serif;
     font-size: 17px;
@@ -10,21 +8,22 @@ p{
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Arial', sans-serif;
   background: #f4f7fc;
   color: #222;
   line-height: 1.6;
+  background-color: #b0e43f;
 }
 a:link,
 a:visited {
-  color: #1b4f78;
+  color: #f2f4f2;
   font-weight: 600;
   text-decoration: none;
   border-bottom: 2px solid #a2c9e8;
 }
 
 a:hover {
-  color: #0f2f53;
+  color: #f80acc;
   border-bottom: 2px solid #2b5a85;
 }
 #container {
@@ -34,7 +33,7 @@ a:hover {
   margin-right: auto;
   padding: 20px;
   border: 2px solid #2f4f4f;
-  background-color: #ffffff;
+  background-color: #589fce;
   border-radius: 12px;
 }
 
@@ -49,18 +48,21 @@ img {
 h1 {
   margin-top: 0;
   font-size: 2.4rem;
-  color: #1f3b58;
+  color: #2f2727;
+  text-align: center;
 }
 
 h2 {
   margin: 0 0 1.0rem;
   font-size: 1.8rem;
-  color: #375a7f;
+  color: #9b9915;
+  text-align: center;
 }
 
 h3 {
   margin-bottom: 0.6rem;
-  color: #4d6f92;
+  color: #720574;
+  text-align: center;
 }
 .info {
   margin-bottom: 2rem;
@@ -71,21 +73,27 @@ h3 {
 }
 .p1 {
   font-weight: 700;
+  text-decoration: underline;
+  font-weight: 700;
   margin: 0;
   padding: 8px;
   border: 1px solid #bfd9f5;
 }
 
 .p2 {
-  background-color: #f7f9ff;
+  font-weight: 700;
+  text-decoration: underline;
+  font-weight: 700;
   margin: 0;
   padding: 8px;
-  border: 1px solid #a6c4e6;
+  border: 1px solid #000000;
 }
 
 .p3 {
+  font-weight: 700;
   text-decoration: underline;
+  font-weight: 700;
   margin: 0;
   padding: 8px;
-  border: 1px solid #a7c9e6;
+  border: 1px solid #bfd9f5;
 }
